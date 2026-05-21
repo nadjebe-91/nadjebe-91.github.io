@@ -1,0 +1,64 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   background-color:#fdfeff;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.Image-search-container{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;/* Coins très arrondis (pilule) /Very rounded corners (pill-shaped) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);/* Ombre légère/Light shadow */
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+.Image-search-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.Image-search-input{
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    outline: none; /* Enlève la bordure bleue par défaut/Remove the default blue border */
+    width: 600px; /* Largeur de la barre */
+}
+.Image-search-button{
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Image-search-button:hover {
+    background-color: #0056b3;
+}
+.menu {
+    position: fixed; /* Fixe le menu en haut / Fix the menu at the top*/
+    top: 0;
+    left: 0;
+    width: 100%; /* Prend toute la largeur / Takes full width*/
+    background-color: #EA4335;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none; /* Enlève les puces/ Remove the fleas */
+    display: flex; /* Active Flexbox/ Active Flexbox*/
+    justify-content: flex-end; /* Aligne à gauche */
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #0056b3;
+}

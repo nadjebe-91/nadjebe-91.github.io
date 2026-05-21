@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Advanced_search.css">
+<title>Recherche avancée</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Return to the Google search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Advanced search</h2>
+    <hr>
+
+    <form action="https://www.google.com/advanced_search" method="GET" class="adv-search-form">
+        
+        <!-- Option 1 -->
+        <div class="adv-search-option">
+            <label class="adv-search-label">all these words :</label>
+            <input type="text" name="as_q" class="adv-search-input">
+        </div>
+
+        <!-- Option 2 -->
+        <div class="adv-search-option">
+            <label class="adv-search-label">this exact word or phrase :</label>
+            <input type="text" name="as_epq" class="adv-search-input">
+        </div>
+
+        <!-- Option 3 -->
+        <div class="adv-search-option">
+            <label class="adv-search-label">any of these words :</label>
+            <input type="text" name="as_oq" class="adv-search-input">
+        </div>
+
+        <!-- Option 4 -->
+        <div class="adv-search-option">
+            <label class="adv-search-label">none of these words :</label>
+            <input type="text" name="as_eq" class="adv-search-input">
+        </div>
+
+        <div class="submit-container">
+            <button type="submit" class="btn-submit">Advanced Search</button>
+        </div>
+    </form>
+
+</body>
+</html>

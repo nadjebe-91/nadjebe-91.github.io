@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search bar</title>
+    <link rel="stylesheet" href="Image_search.css">
+</head>
+<body>
+    <body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Return to the Google search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+    <div class="Image-search-container">
+        <input type="hidden" name="tbm" value="isch">
+        <input type="text" class="Image-search-input" name="q" placeholder="Search...">
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <input class="Image-search-button"  type="submit" value="Image search">
+    </div>
+    </form>
+
+</body>
+</html>

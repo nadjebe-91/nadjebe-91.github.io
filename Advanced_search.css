@@ -1,0 +1,80 @@
+ body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        color: #202124;
+    }
+
+    .adv-search-form {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adv-search-option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .adv-search-label {
+        width: 200px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .adv-search-input {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #dfe1e5;
+        border-radius: 4px;
+    }
+
+    .adv-search-input:hover {
+        border-color: #999;
+    }
+
+    .submit-container {
+        margin-top: 20px;
+        margin-left: 200px; /* Aligne avec les champs */
+    }
+
+    .btn-submit {
+        background-color: #1a73e8;
+        color: white;
+        border: none;
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn-submit:hover {
+        background-color: #1765cc;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .menu {
+    position: fixed; /* Fixe le menu en haut / Fix the menu at the top*/
+    top: 0;
+    left: 0;
+    width: 100%; /* Prend toute la largeur / Takes full width*/
+    background-color: #34A853;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none; /* Enlève les puces/ Remove the fleas */
+    display: flex; /* Active Flexbox/ Active Flexbox*/
+    justify-content: flex-end; /* Aligne à gauche */
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #1765cc;
+}
